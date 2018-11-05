@@ -1,0 +1,10 @@
+
+
+       To build a website designed around the theme of Farmer Markets, fresh produce and hand made products.  Work on bringing better food and hand crafted products to the people.
+* make an account on the website.
+* a newsletter signup to receive information on locations and times of markets near you.
+* Placing orders to be filled by contributing venders/ times for order pickup
+* Show relative prices at given market.
+* Show specials and sales
+* Show a list of venders that will attend each market.
+* Directions to the markets and times
