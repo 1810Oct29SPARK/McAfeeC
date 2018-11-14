@@ -1,0 +1,21 @@
+body{
+    background-color: navy;
+
+}
+
+form {
+background-color: #444b91;
+color: white;
+border-color: springgreen;
+border-radius: 10%;
+padding: 10px;
+border-style: 1px solid;
+}
+
+fieldset{
+
+    border-color: springgreen;
+    border-style: groove;
+    margin: 10px;
+    border-radius: 15%;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color:#05abc8;
+}
+
+form {
+    background-color:#444b91;
+    color:white;
+    border-color: springgreen;
+    border-radius: 10%;
+    padding:10px;
+    border-style: solid;
+}
+
+fieldset {
+    border-color: springgreen;
+    border-style: dashed;
+    margin: 10px;
+    border-radius: 10%;
+}
