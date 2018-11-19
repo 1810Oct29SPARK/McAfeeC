@@ -1,0 +1,240 @@
+/*Header and nav bar*/
+
+header{
+    background-color: #4B7F15;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    width: 100%;
+
+}
+
+header > h1{
+    text-align: center;
+    
+}
+
+.pill-nav{
+    background-color: #4B7F15;
+    overflow: hidden;
+    top:0px;
+}
+.pill-nav a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 15px;
+    text-align: center;
+    background-color: #5dd55d;
+    
+
+  }
+  
+.pill-nav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+.pill-nav a.active{
+    background-color: #BBFF76;
+    color: whiteor;
+  }
+
+  /*body and divs*/
+
+html ,body{
+    background-image: url(https://sheldoniowa.com/wp-content/uploads/2018/06/Farmers-Market-Veggies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+    height: 100%;
+
+}
+
+#indexpage{
+    border: #BBFF76;
+    border-style: solid;
+    background-color: #ddd;
+    border-width: 10px;
+    border-radius: 30%;
+    display: flex;
+    margin: 5%;
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 10px 10px;
+    
+}
+
+
+
+#homepage img{
+    border-radius: 10%;
+    size: 100px, 150px;
+    float: bottom;
+   
+    height:50% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+#homepage > h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#homepage{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#forms{
+
+width: 50%;
+margin: auto;
+
+
+
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #4B7F15;
+    float: Bottom;
+}
+
+#map{
+    align-self: center;
+    height:700px;
+    width:100%;
+}
+
+
+
+#sidebarweather {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    left: 10px;
+    background: #BBFF76;
+    overflow-x: hidden;
+    padding: 8px 0;
+    align-self: center;
+}
+
+#sidebarweather div {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    #sidebarweather {padding-top: 15px;}
+    #sidebarweather div {font-size: 18px;}
+}
+.venders{
+    margin: 10%;
+
+
+}
+.venders img{
+    border-radius: 10%;
+    size: 100px, 150px;
+    float: left;
+    width:300 ;
+    height:157 ;
+}
+
+.recipes{
+    margin: 10%;
+
+
+}
+.recipes img{
+    border-radius: 10%;
+    size: 100px, 150px;
+    float: left;
+    width:300 ;
+    height:157 ;
+}
+
+#map {
+margin: auto;
+padding: auto;
+height: 600px;
+width: 600px;
+
+  }

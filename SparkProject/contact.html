@@ -1,0 +1,78 @@
+<!doctype <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vine Fresh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="project.css" />
+    
+</head>
+<body>
+    <header>
+            <h1>Vine Fresh</h1>
+
+        <div class="pill-nav">
+                <a href="index.html">Home</a>
+                <a href="vender.html">Venders</a>
+                <a href="recipes.html">Recipes</a>
+                <a class="active" href="contact.html">Missed a Market?</a>
+                <a  href="map.html">Map</a>
+                
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div id="sidebarweather">
+            <div><p>Weather in Dallas</p></div>
+            <div id="weatherDiv"></div>
+            <div id="humidityDiv"></div>
+            <div id="currentDiv"></div>
+        </div>
+        <script src="weather.js"></script>
+
+    <div id="indexpage">
+        <div>
+            <form action="thankyou.html" action="crymcafee@hotmail.com" method="post" enctype="text/plain" id="forms">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Email</label>
+                <input type="text" name="mail" placeholder="Contact email pleas">
+
+                <label for="marketname">Market Name</label>
+                <input type="text" id="marketname" name="marketname" placeholder="What is the Markets name?">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="What city is it in?">
+            
+                <label for="state">State:  Please note that we only cover a few US states at this time.  Thank you!</label>
+                <select id="state" name="state">
+                  <option value="Alabama">Alabama</option>
+                  <option value="Alaska">Alaska</option>
+                  <option value="Florida">Florida</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Mississippi">Mississippi</option>
+                  <option value="Ohio">Ohio</option>
+                  <option value="South Carolina">South Carolina</option>
+                  <option value="Texas">Texas</option>
+                  <option value="West Virginia">West Virginia</option>
+                </select>
+            
+                <label for="description">Description of the Market</label>
+                <textarea id="Commit" name="Commit" placeholder="Would you like to add something?" style="height:150px"></textarea>
+            
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            
+              </form>
+        </div>
+    </div>
+    
+</body>
+</html>
